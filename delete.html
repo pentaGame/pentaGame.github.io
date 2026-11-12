@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Robo Boxing 계정 삭제</title>
+<!--
+  Account deletion page for Google Play's "Delete account URL". Host it next to
+  index.html (the privacy policy). Keep what is deleted and kept in step with
+  section 3 of index.html and delete_player() in 0017_account_links.sql.
+-->
+<style>
+  :root { --bg: #ffffff; --fg: #1c1f24; --muted: #5b6270; --line: #e2e5ea; --accent: #e8650f; --note: #fff4e6; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #14161a; --fg: #e8eaee; --muted: #9aa1ad; --line: #2b2f36; --accent: #f7883a; --note: #2a2116; }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--fg); font: 16px/1.7 -apple-system, "Apple SD Gothic Neo", "Noto Sans KR", sans-serif; }
+  main { max-width: 760px; margin: 0 auto; padding: 32px 16px 64px; }
+  h1 { font-size: 1.6rem; margin: 0 0 4px; }
+  h2 { font-size: 1.15rem; margin: 36px 0 8px; padding-top: 12px; border-top: 1px solid var(--line); }
+  .meta { color: var(--muted); margin: 0 0 24px; }
+  .box { background: var(--note); border-radius: 8px; padding: 12px 16px; margin: 12px 0; }
+  table { width: 100%; border-collapse: collapse; margin: 8px 0; font-size: 0.95rem; }
+  th, td { border: 1px solid var(--line); padding: 8px; text-align: left; vertical-align: top; }
+  th { background: var(--note); }
+  .scroll { overflow-x: auto; }
+  a { color: var(--accent); }
+</style>
+</head>
+<body>
+<main>
+<h1>Robo Boxing 계정 삭제</h1>
+<p class="meta">운영자: pentahoonGames · <a href="index.html">개인정보 처리방침</a> · <a href="#en">English</a></p>
+
+<h2>1. 게임 안에서 삭제하기</h2>
+<ol>
+<li>게임을 열고 톱니바퀴(설정)를 누릅니다. 타이틀 화면에서는 오른쪽 위, 로비에서는 왼쪽 위에 있습니다.</li>
+<li><b>계정 삭제</b>를 누릅니다.</li>
+<li>"되돌릴 수 없습니다" 안내가 나오면 <b>지우기</b>를 누릅니다.</li>
+</ol>
+<p>서버의 계정과 게임 기록이 바로 삭제되고, 게임은 처음 상태로 돌아갑니다.</p>
+
+<h2>2. 이메일로 요청하기</h2>
+<p>게임을 이미 지웠거나 열 수 없다면 아래 주소로 요청하세요.</p>
+<div class="box">
+<p>받는 곳: <a href="mailto:pentahoonGame@gmail.com?subject=Robo%20Boxing%20%EA%B3%84%EC%A0%95%20%EC%82%AD%EC%A0%9C%20%EC%9A%94%EC%B2%AD">pentahoonGame@gmail.com</a><br>
+제목: Robo Boxing 계정 삭제 요청</p>
+<p>본문에 적어 주세요:</p>
+<ul>
+<li>로봇 이름</li>
+<li>지금 리그(예: 브론즈 3부)와 게임을 시작한 대략의 날짜</li>
+<li>게임센터나 Google Play 게임즈를 연결했다면 그 사실</li>
+</ul>
+</div>
+<p>계정을 확인한 뒤 10일 안에 삭제하고 회신합니다. 이름이 같은 로봇이 여럿이면 확인을 위해 더 여쭐 수 있습니다.</p>
+
+<h2>3. 삭제되는 정보와 남는 정보</h2>
+<div class="scroll"><table>
+<tr><th>정보</th><th>처리</th></tr>
+<tr><td>게임 계정, 로그인 세션, 계정 연결(게임센터·Play 게임즈)</td><td>바로 삭제</td></tr>
+<tr><td>로봇 이름, 보유 부품, 코인, 상자, 합성, 일일 목표</td><td>바로 삭제</td></tr>
+<tr><td>광고 보상 기록, 게임 이용 기록(접속 시각, 본 화면 등)</td><td>바로 삭제</td></tr>
+<tr><td>다른 이용자의 경기 기록과 리그 순위에 남은 내 로봇의 이름과 구성</td><td>계정과의 연결을 끊은 채 남음 (다른 이용자의 기록 보호)</td></tr>
+<tr><td>삭제한 계정의 기록(로봇 이름, 삭제 사유, 일시)</td><td>재가입 부정 이용 확인을 위해 1년 보관 후 삭제</td></tr>
+<tr><td>서버 접속 기록</td><td>「통신비밀보호법」에 따라 3개월 보관 후 삭제</td></tr>
+</table></div>
+<p>삭제한 계정은 되살릴 수 없습니다. 휴대폰에 남은 게임 데이터는 앱을 지우면 함께 지워집니다.</p>
+
+<h2 id="en">Deleting your Robo Boxing account (English)</h2>
+<p><b>In the game:</b> open Settings (the gear at the top right of the title screen or the top left of the lobby) → <b>Delete account</b> → <b>Delete</b>. Your account and game data are deleted from the server at once.</p>
+<p><b>By email:</b> if you can no longer open the game, write to <a href="mailto:pentahoonGame@gmail.com?subject=Robo%20Boxing%20account%20deletion">pentahoonGame@gmail.com</a> with the subject "Robo Boxing account deletion" and your robot's name, current league and roughly when you started. We delete the account within 10 days of confirming it and reply.</p>
+<p><b>Deleted at once:</b> the account, sessions, linked Game Center / Play Games IDs, robot name, parts, coins, boxes, merges, ad reward records and usage records.</p>
+<p><b>Kept:</b> your robot's name and build in other players' fight records and league standings, no longer linked to you; a record of the deletion (robot name, reason, date) for 1 year to prevent abuse; server access logs for 3 months as required by Korean law.</p>
+</main>
+</body>
+</html>
